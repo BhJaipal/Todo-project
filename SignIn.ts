@@ -1,4 +1,3 @@
-
 import "./SignIn.css";
 const SignIn = class {
     register() {
