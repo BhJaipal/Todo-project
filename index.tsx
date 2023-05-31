@@ -1,9 +1,9 @@
-
+import React from "react";
 import ReactDOM from "react-dom";
 import App from './App';
 ReactDOM.render(
-    <ReactDOM.StrictMode>
+    <React.StrictMode>
     <App />
-    </ReactDOM.StrictMode>,
+    </React.StrictMode>,
     document.getElementById("root")
-)
+);
