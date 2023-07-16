@@ -1,4 +1,4 @@
-import { taskAdd } from "./taskAdd";
+import { newTask } from "./taskAdd";
 
 let addMore= document.getElementById("adding") as HTMLLabelElement;
 addMore.style.display= "none";
@@ -12,7 +12,7 @@ document.querySelector("#add-it").addEventListener("click", function() {
   if (document.getElementById("add-more").value== null || document.getElementById("add-more").value== "") {
     window.alert("Enter a task name first");
   } else {
-    taskAdd.newTask(document.getElementById("add-more").value);
+    newTask(document.getElementById("add-more").value);
     document.querySelector("#add-more").value ="";
   }
 })
