@@ -1,11 +1,10 @@
-export class Btn{
 /**
  * @param {string} labelName Class of button
  * @param {string} iconName name for icon 
  * @param {Function} func function executed when button is clicked
  * @return {HTMLButtonElement}
  */
-static Button( 
+function Button( 
   labelName: string, 
   iconName: string, 
   func: Function
@@ -19,3 +18,4 @@ static Button(
   button.addEventListener("click", func);
   return button;
 }}
+export { Button }
