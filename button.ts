@@ -3,7 +3,6 @@ export class Btn{
  * @param {string} labelName Class of button
  * @param {string} iconName name for icon 
  * @param {Function} func function executed when button is clicked
- * @param {string} id it is not necessary it was made for done button
  * @return {HTMLButtonElement}
  */
 static Button( 
