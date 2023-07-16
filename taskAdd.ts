@@ -36,7 +36,7 @@ export class taskAdd{
         doneIcon.innerText=  "radio_button_unchecked";
         doneIcon.style.color= "black";
       }
-    }, "done");
+    });
     listElem.appendChild(doneButton);
     listElem.appendChild(editButton);
     listElem.appendChild(delButton);
