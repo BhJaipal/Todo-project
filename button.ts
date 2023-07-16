@@ -9,13 +9,11 @@ export class Btn{
 static Button( 
   labelName: string, 
   iconName: string, 
-  func: Function,
-  id="noId"
+  func: Function
 ): HTMLButtonElement {
   let button= document.createElement("button");
   let label= document.createElement("i");
   label.classList.add("material-icons");
-  label.id= id;
   label.innerText= iconName;
   button.appendChild(label);
   button.classList.add(labelName);
