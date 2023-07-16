@@ -1,21 +1,21 @@
 # Todo-project
  This is a todo project made in TypeScript
 
- I created it using Spck editor 
+I created it using Spck editor 
 
- button.ts contains Button function which takes button's class name, icon name and function 
+button.ts contains Button function which takes button's class name, icon name and function 
 
 ```typescript
-// first import Btn class from button.ts
-import { Btn } from "./button";
+// first import Button function from button.ts
+import { Button } from "./button";
 
 // now create new button
-Btn.Button("delete", "delete", function() {
+Button("delete", "delete", function() {
   document getElementById("task-list").removeChild(listElem);
 });
 ```
 
- taskAdd.ts contains newTask function which takes label's name and add a new task in task list
+taskAdd.ts contains newTask function which takes label's name and add a new task in task list
 
 ```typescript
 // first import taskAdd class from taskAdd.ts
