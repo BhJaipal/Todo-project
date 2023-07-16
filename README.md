@@ -18,9 +18,9 @@ Button("delete", "delete", function() {
 taskAdd.ts contains newTask function which takes label's name and add a new task in task list
 
 ```typescript
-// first import taskAdd class from taskAdd.ts
-import { taskAdd } from "./taskAdd";
+// first import newTask function from taskAdd.ts
+import { newTask } from "./taskAdd";
 
 // new create new task
-taskAdd.newTask("Wake-up");
+newTask("Wake-up");
 ```
